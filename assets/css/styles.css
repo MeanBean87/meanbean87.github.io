@@ -1,6 +1,26 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #5B676D;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
 
 .gradient-background {
   background: linear-gradient(300deg, #00bfff, #77bc1f, orange);
@@ -27,13 +47,6 @@
   }
 }
 
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .profile-photo {
   border-radius: 360%;
   display: block;
@@ -46,33 +59,28 @@ body {
 }
 
 .name {
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1F262a;
 }
 
 .icons {
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 20px;
-  }
-
-ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 
+
+
 .about {
-    font-weight: bolder;
+  font-weight: bolder;
+  padding-top: 20px;
 }
 
 .icon-text {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 2px;
-  }
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
